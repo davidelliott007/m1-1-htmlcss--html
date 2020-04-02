@@ -5,7 +5,7 @@
 
 Type true/false in the provided [ ].
 
-a) [ not suure ] `<div><span>hello</div></span>`
+a) [ ] `<div><span>hello</div></span>`
 
 b) [ False]
 
