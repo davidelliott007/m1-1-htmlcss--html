@@ -1,1 +1,84 @@
 <!-- ...crickets... -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Registration Form</h1>
+
+    <form>
+
+        <div><label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">password:</label required>
+            <input type="password" id="password" name="password" required>
+        </div>
+        
+        <div><label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+
+        Which taxi do you require?
+
+        <div>
+            <label>
+                <input type="radio" name="taxi" required/> Car
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" name="taxi" required/> Van
+            </label>
+        </div>
+
+        <div><label>
+                <input type="radio" name="taxi" required/> Tuk Tuk
+            </label>
+        </div>
+
+
+        Extras
+
+        <div>
+            <label>
+                <input type="checkbox" /> Baby Seat
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input type="checkbox" /> Wheelchair Access
+            </label>
+        </div>
+        
+        <div>
+            <label>
+                <input type="checkbox" /> Stock Tip
+            </label>
+        </div>
+
+
+        <div>      
+            <label for="pickup">Pickup</label>
+            <select id="pickup">
+                <option value="Select One">Select One</option>
+                <option value="Taxi">Taxi</option>
+                <option value="Office">Office</option>
+                <option value="We'll Guess!">We'll Guess</option>
+          </select>
+        </div>
+
+        <div>
+            Special
+            <textarea rows = "2" cols = "20" name = "special"> </textarea>
+        </div>
+    
+        <input type = "submit" value = "Submit" />
+
+    </form>
+
+</body>
+
+</html>
